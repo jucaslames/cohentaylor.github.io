@@ -1,0 +1,123 @@
+$dark-grey: #65695b;
+$blue-grey: #9aa8ac;
+$yellow: #e3d200;
+$orange: #d66f20;
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	//width: 1200px;
+	display: flex;
+	justify-content: center;
+}
+
+.more-btn {
+	background: none;
+    border: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/********** HERO/HEADER STYLING **********/
+.hero-container {
+
+}
+
+.color-line {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: fit-content;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.ct-logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.cover {
+	background-image: url(./assets/team.jpg);
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	//position: absolute;
+}
+
+.slogan {
+	position: relative;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: $dark-grey;
+    text-shadow: $blue-grey 0px 0px 12px
+}
+
+
+/********** BCORP STYLING **********/
+.bcorp-container {
+	background-color: $orange;
+	height: 300px;
+}
+
+.bcorp-width {
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.bcorp-logo {
+	height: 50%;
+}
+
+.bcorp-vertical-line {
+	width: 6px;
+	background-color: white;
+	margin: 0 2rem;
+}
+
+.bcorp-info {
+
+}
+
+.bcorp-top-content {
+
+}
+
+.bcorp-more-content {
+
+}
+
+/*
+-add google analytics hooked up to some email that isn't mine lol
+-need to figure out how to use flexbox-react-layout or flexbox-react-grid
+-have an adobe font pack started for the project
+-GATSBY 1.0 SETUP SHOULD HAVE ALLT HSI SHITSS
+
+DARK GREY
+rgb(101, 105, 91, 1)
+#65695b
+ 
+BLUE/GREY
+rgb(154, 168, 172, 1)
+#9aa8ac
+ 
+YELLOW
+rgb(227, 210, 0, 1)4
+#e3d200
+ 
+ORANGE
+rgb(214, 111, 32, 1)
+#d66f20
+
+
+*/
