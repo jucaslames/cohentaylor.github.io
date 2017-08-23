@@ -1,8 +1,9 @@
 import React from 'react';
-import Flexbox from 'flexbox-react';
+//import Flexbox from 'flexbox-react';
+//import { HLayout, HLayoutItem, VLayout, VLayoutItem } from 'react-flexbox-layout';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import colorLine from '../components/assets/color-line.jpg';
 import CTLogo from '../components/assets/rectlogo-exec.jpg';
-import { HLayout, HLayoutItem, VLayout, VLayoutItem } from 'react-flexbox-layout';
 import '../components/components.scss';
 
 class Hero extends React.Component {
@@ -22,5 +23,3 @@ class Hero extends React.Component {
 }
 
 export default Hero;
-
-//<h1>Purpose. Process. People.</h1>

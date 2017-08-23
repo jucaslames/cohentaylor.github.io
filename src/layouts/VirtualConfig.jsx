@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import BCorp from '../layouts/BCorp.jsx';
 import Hero from '../layouts/Hero.jsx';
 import 'react-flexbox-layout/lib/styles.css';
+import { GoogleSheet } from "react-google-sheet-connector"
 
 class VirtualConfig extends React.Component {
 	constructor(props) {
@@ -26,6 +27,9 @@ class VirtualConfig extends React.Component {
 
     render() {
     	return (
+    		<div>
+    			<GoogleSheet child={BCorp} sheetName="main-content" group="color-line-image"></GoogleSheet>
+    		</div>
 
     	)
     }

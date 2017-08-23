@@ -1,0 +1,180 @@
+$dark-grey: #65695b;
+//rgb(101, 105, 91, 1)
+$blue-grey: #9aa8ac;
+//rgb(154, 168, 172, 1)
+$yellow: #e3d200;
+//rgb(227, 210, 0, 1)
+$orange: #d66f20;
+//rgb(214, 111, 32, 1)
+
+/* TODO
+-address or delete VirtualConfig.jsx AND GoogleSpreadsheet.jsx
+-Level up implementation of data read in
+-add google analytics hooked up to some email that isn't mine lol
+-need to figure out how to use flexbox-react-layout or flexbox-react-grid
+-have an adobe font pack started for the project
+-(?!??! lol what am i saying)GATSBY 1.0 SETUP SHOULD HAVE ALLT HSI SHITS
+*/
+
+/********** GLOBAL STYLING **********/
+body {
+	padding: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.more-btn {
+	background: none;
+    border: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.section-intro h1 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 3rem;
+	word-wrap: break-word;
+	text-align: center;
+	margin: 0;
+	padding: 30px 0;
+}
+
+/********** GLOBAL STYLING **********/
+//
+//
+//
+//
+/********** HERO/HEADER **********/
+.hero-container {
+
+}
+
+.color-line {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: fit-content;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.ct-logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.cover {
+	background-image: url(./assets/team.jpg);
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	//position: absolute;
+}
+
+.slogan {
+	position: relative;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: $dark-grey;
+    text-shadow: $blue-grey 0px 0px 12px
+}
+/********** HERO/HEADER **********/
+//
+//
+//
+//
+/********** BCORP **********/
+.bcorp-container {
+	background-color: $orange;
+	height: 100%;
+}
+
+.bcorp-width {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bcorp-logo {
+	height: 50%;
+}
+
+.bcorp-vertical-line {
+	width: 6px;
+	background-color: white;
+	margin: 0 2rem;
+}
+
+.bcorp-info {
+
+}
+
+.bcorp-top-content h3 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+
+.bcorp-more-content h4 {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+/********** BCORP **********/
+//
+//
+//
+//
+/********** VALUES **********/
+.values-container {
+	background-color: $blue-grey;
+	height: 300px;
+	width: 100%;
+}
+
+.values-circles-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.value-circle {
+	width: 150px;
+	height: 150px;
+	background-color: $yellow;
+	//-moz-border-radius: 50px;
+	//-webkit-border-radius: 50px;
+	border-radius: 75px;
+	word-wrap: break-word;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.values-title {
+
+}
+/********** VALUES **********/
+//
+//
+//
+//
+/********** TEAM **********/
+
+/********** TEAM **********/

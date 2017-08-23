@@ -12,6 +12,7 @@
     "gatsby-transformer-remark": "^1.7.0",
     "react-flexbox-grid": "^1.1.4",
     "react-flexbox-layout": "^1.2.7",
+    "react-fontawesome": "^1.6.1",
     "react-google-sheet-connector": "^1.0.1"
   },
   "keywords": [
