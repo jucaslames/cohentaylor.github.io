@@ -7,7 +7,7 @@ class Values extends React.Component {
 		return (
 			<div>
 				<div className="values-container">
-					<div className="values-intro"><h1>We find leaders who truly share your values.</h1></div>
+					<div className="section-intro"><h1>We find leaders who truly share your values.</h1></div>
 					<div className="values-circles-container">
 						<div className="value-circle">
 							<h3 className="values-title">Purpose first</h3>
