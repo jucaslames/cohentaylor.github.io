@@ -1,10 +1,7 @@
 import React from 'react';
-//import Flexbox from 'flexbox-react';
-//import { HLayout, HLayoutItem, VLayout, VLayoutItem } from 'react-flexbox-layout';
-import { Grid, Row, Col } from 'react-flexbox-grid';
-import colorLine from '../components/assets/color-line.jpg';
-import CTLogo from '../components/assets/rectlogo-exec.jpg';
-import '../components/components.scss';
+import colorLine from '../assets/color-line.jpg';
+import CTLogo from '../assets/rectlogo-exec.jpg';
+import '../scss/styles.scss';
 
 class Hero extends React.Component {
 	render() {

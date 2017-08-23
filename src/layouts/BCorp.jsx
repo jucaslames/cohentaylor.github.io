@@ -1,7 +1,7 @@
 import React from 'react';
-import BCorpLogo from '../components/assets/bcorp-logo.png';
+import BCorpLogo from '../assets/bcorp-logo.png';
 //import MyComponent from './GoogleSheet.jsx'
-import '../components/components.scss';
+import '../scss/styles.scss';
 
 class BCorp extends React.Component {
 	constructor(props) {

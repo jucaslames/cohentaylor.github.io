@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/components.scss';
+import '../scss/styles.scss';
 import ChrisCohen from '../assets/team/chris-cohen.jpg';
 import DonTaylor from '../assets/team/don-taylor.jpg';
 import JoelBergstrom from '../assets/team/joel-bergstrom.jpg';

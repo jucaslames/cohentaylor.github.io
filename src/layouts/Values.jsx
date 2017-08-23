@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/components.scss';
+import '../scss/styles.scss';
 import MoreBtn from './MoreBtn.jsx';
 
 class Values extends React.Component {

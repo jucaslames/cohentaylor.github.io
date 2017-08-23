@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/components.scss';
+import '../scss/styles.scss';
 var FontAwesome = require('react-fontawesome');
 
 class MoreBtn extends React.Component {
